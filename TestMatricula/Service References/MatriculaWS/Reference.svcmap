@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0423accd-0387-427e-b0af-ea837c5ed214" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5763/SolicitudMatriculas.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SolicitudMatriculas.disco" MetadataType="Disco" ID="28f002f9-202e-4fa1-b043-e29d8313966a" SourceId="1" SourceUrl="http://localhost:5763/SolicitudMatriculas.svc?disco" />
+    <MetadataFile FileName="SolicitudMatriculas.wsdl" MetadataType="Wsdl" ID="4b8907a7-3718-43d4-bd77-76183931a709" SourceId="1" SourceUrl="http://localhost:5763/SolicitudMatriculas.svc?wsdl" />
+    <MetadataFile FileName="SolicitudMatriculas.xsd" MetadataType="Schema" ID="97e3c5b8-90ed-44d1-8fcc-2979c4926b21" SourceId="1" SourceUrl="http://localhost:5763/SolicitudMatriculas.svc?xsd=xsd1" />
+    <MetadataFile FileName="SolicitudMatriculas1.xsd" MetadataType="Schema" ID="50be52b2-c958-4c3c-8aef-a92702eaa3fa" SourceId="1" SourceUrl="http://localhost:5763/SolicitudMatriculas.svc?xsd=xsd0" />
+    <MetadataFile FileName="SolicitudMatriculas2.xsd" MetadataType="Schema" ID="5c9aaa49-35f9-4095-a9df-5d480659a5de" SourceId="1" SourceUrl="http://localhost:5763/SolicitudMatriculas.svc?xsd=xsd3" />
+    <MetadataFile FileName="SolicitudMatriculas3.xsd" MetadataType="Schema" ID="cfbc8f13-d229-4115-9f63-b3fb6bd0bc38" SourceId="1" SourceUrl="http://localhost:5763/SolicitudMatriculas.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

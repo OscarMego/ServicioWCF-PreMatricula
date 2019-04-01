@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioDeSolicitudesDePrematricula", "ServicioDeSolicitudesDePrematricula\ServicioDeSolicitudesDePrematricula.csproj", "{1533980D-1B82-4684-AA04-974E9C5FCDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMatricula", "TestMatricula\TestMatricula.csproj", "{6BA038DB-C02B-4313-AA76-C670788EEECC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1533980D-1B82-4684-AA04-974E9C5FCDA3} = {1533980D-1B82-4684-AA04-974E9C5FCDA3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1533980D-1B82-4684-AA04-974E9C5FCDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1533980D-1B82-4684-AA04-974E9C5FCDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1533980D-1B82-4684-AA04-974E9C5FCDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1533980D-1B82-4684-AA04-974E9C5FCDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA038DB-C02B-4313-AA76-C670788EEECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA038DB-C02B-4313-AA76-C670788EEECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA038DB-C02B-4313-AA76-C670788EEECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA038DB-C02B-4313-AA76-C670788EEECC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
